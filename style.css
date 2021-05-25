@@ -1,0 +1,330 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+ 
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+ 
+body {
+    line-height:1;
+}
+ 
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+ 
+nav ul {
+    list-style:none;
+}
+ 
+blockquote, q {
+    quotes:none;
+}
+ 
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+ 
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+ 
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+ 
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+ 
+del {
+    text-decoration: line-through;
+}
+ 
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+ 
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+ 
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+ 
+input, select {
+    vertical-align:middle;
+}
+
+/* ここから */
+
+header {
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+.header {
+  height: 65px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header img {
+  height: 65px;
+  float: left;
+}
+
+.header ul {
+  /* text-align: right; */
+  list-style: none;
+  text-align: center;
+  width: 320px;
+  margin-left: auto;
+}
+
+.header a {
+  height: 15px;
+  width: 65px;
+  font-size: 16px;
+  color: white;
+  display: block;
+  float: left;
+  text-decoration: none;
+  padding: 25px 20px;
+  transition: 0.5s;
+}
+
+.header a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.top-wrapper {
+  background-image: url(IMG_4051.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  padding: 190px 0;
+  background-color:rgba(255,255,255,0.5); /* 背景画像を透過させる */
+  background-blend-mode:lighten;
+}
+
+.top-container {
+  
+}
+
+.top-wrapper h1 {
+  text-align: center;
+  font-size: 45px;
+  color: black;
+  opacity: 0.7;
+  height: 68px;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 2px white;
+}
+
+.top-wrapper p {
+  text-align: center;
+  font-size: 16px;
+  color: black;
+  opacity: 0.7;
+  height: 20px;
+  /* background-color: black; */
+  text-shadow: 1px 1px 2px white;
+}
+
+.btn-wrapper {
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.btn-wrapper p {
+  margin: 10px auto;
+}
+
+.btn-wrapper a {
+  font-size: 16px;
+  color: white;
+  opacity: 0.8;
+  display: inline-block;
+  width: 145px;
+  height: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn-wrapper a:hover {
+  opacity: 1;
+}
+
+.btn-new {
+  background-color: #239b76;
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+  margin-right: 7px;
+}
+
+.btn-twitter {
+  background-color: #55acee;
+  margin-left: 7px;
+}
+
+.lesson-wrapper {
+  width: 100%;
+  height: 580px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.lesson-wrapper h2 {
+  color: #5f5d60;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  padding: 85px 0 65px 0;
+}
+
+.lessons {
+  width: 1090px;
+  margin: 0 auto;
+}
+
+.lesson {
+  float: left;
+  height: 360px;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 90px;
+  width: 100%;
+}
+
+.lesson-text {
+  color: #b3aeb5;
+  font-size: 13px;
+  width: 190px;
+  margin: 20px auto;
+}
+
+.message-wrapper {
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  padding-top: 85px;
+}
+
+/* .message-container {
+  height: 180px;
+  height: 1200px;
+} */
+
+.message-container h2 {
+  font-weight: normal;
+  font-size: 24px;
+  color: #5f5d60;
+  padding-bottom: 10px;
+}
+
+.message-container h3 {
+  font-weight: normal;
+  font-size: 18.72px;
+  color: #5f5d60;
+  padding-bottom: 55px;
+  
+}
+
+.message-container span {
+  display: inline-block;
+  height: 15px;
+  width: 130px;
+  text-decoration: none;
+  padding: 20px 40px 15px 40px;
+  background-color: #5dca88;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message-container span:active {
+  box-shadow: none;
+  position: relative;  
+  top: 7px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+}
+
+.footer {
+  height: 45px;
+  padding: 20px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.footer img {
+  height: 25px;
+}
+
+.footer p {
+  font-size: 12px;
+  color: #b3aeb5;
+  padding-top: 5px;
+}
